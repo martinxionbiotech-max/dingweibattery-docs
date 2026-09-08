@@ -1,0 +1,154 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+{{ super() }}
+<!-- Canonical -->
+<link rel="canonical" href="{{ config.site_url }}{{ page.url }}">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="{% if page.title %}{{ page.title }} — {{ config.site_name }}{% else %}{{ config.site_name }}{% endif %}">
+<meta property="og:description" content="{% if page.meta and page.meta.description %}{{ page.meta.description }}{% else %}Official technical documentation for Dingwei Battery — battery specifications, quality control framework, testing standards.{% endif %}">
+<meta property="og:url" content="{{ config.site_url }}{{ page.url }}">
+<meta property="og:site_name" content="{{ config.site_name }}">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }} — {{ config.site_name }}{% else %}{{ config.site_name }}{% endif %}">
+<meta name="twitter:description" content="{% if page.meta and page.meta.description %}{{ page.meta.description }}{% else %}Official technical documentation for Dingwei Battery.{% endif %}">
+
+<!-- Organization Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://dingweibattery.com/#organization",
+  "name": "Dingwei Battery",
+  "legalName": "Chengguang Power Tech Co., Ltd.",
+  "url": "https://dingweibattery.com",
+  "description": "OEM and private-label automotive battery manufacturer. Founded 2002, 200,000 m² factory, 18 automated production lines, exporting to 70+ countries. Certified to IATF 16949, ISO 9001, ISO 45001, and OHSAS 18001.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "CN"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Sales",
+    "email": "martin@dinweys.com"
+  },
+  "knowsAbout": [
+    "Automotive Batteries",
+    "OEM Battery Manufacturing",
+    "Private Label Batteries",
+    "Battery Standards (JIS, DIN, BCI, SAE, EN)",
+    "CCA Testing",
+    "Battery Quality Control",
+    "Lead-Acid Batteries"
+  ],
+  "sameAs": [
+    "https://dingweibattery.com",
+    "https://chengguangenergy.com"
+  ]
+}
+</script>
+
+<!-- WebSite Schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://docs.dingweibattery.com/#website",
+  "name": "Dingwei Battery Technical Documentation",
+  "url": "https://docs.dingweibattery.com",
+  "description": "Official technical documentation center — battery model specifications, quality control framework, testing standards, and OEM/private-label guidance from Dingwei Battery.",
+  "publisher": {"@id": "https://dingweibattery.com/#organization"},
+  "inLanguage": "en"
+}
+</script>
+
+<!-- BreadcrumbList Schema -->
+{% if page.url and page.url != "/" and page.url != "/index.html/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ config.site_url }}"
+    }
+{% set crumbs = [] %}
+{% set parts = page.url.strip('/').split('/') %}
+{% for part in parts %}
+{% set _ = crumbs.append(part) %}
+{% set crumb_url = config.site_url ~ '/' ~ crumbs|join('/') ~ '/' %}
+{% set crumb_name = part|replace('-', ' ')|title %}
+    ,{
+      "@type": "ListItem",
+      "position": {{ loop.index + 1 }},
+      "name": "{{ crumb_name }}",
+      "item": "{{ crumb_url }}"
+    }
+{% endfor %}
+  ]
+}
+</script>
+{% endif %}
+
+{% if page.meta and page.meta.schema_type == 'TechArticle' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "@id": "{{ config.site_url }}{{ page.url }}#article",
+  "headline": "{{ page.title }}",
+  "description": "{{ page.meta.description }}",
+  "publisher": {"@id": "https://dingweibattery.com/#organization"},
+  "mainEntityOfPage": {"@id": "{{ config.site_url }}{{ page.url }}"},
+  "dateModified": "{% if page.meta.date %}{{ page.meta.date }}{% else %}2026-09-08{% endif %}"
+}
+</script>
+{% endif %}
+
+{% if page.meta and page.meta.faq_json %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+{% for faq in page.meta.faq_json %}
+    {
+      "@type": "Question",
+      "name": "{{ faq.q }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ faq.a }}"
+      }
+    }{% if not loop.last %},{% endif %}
+{% endfor %}
+  ]
+}
+</script>
+{% endif %}
+{% endblock %}
+
+{% block footer %}
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+        &copy; {{ build_date_utc.strftime('%Y') }} Dingwei Battery. All rights reserved.
+        <br>Manufactured by Chengguang Power Tech Co., Ltd.
+      </div>
+      <div class="md-social">
+        <a href="https://dingweibattery.com" target="_blank" rel="noopener" class="md-footer-social__link" title="Main Website">
+          🏠 dingweibattery.com
+        </a>
+        <a href="https://docs.dingweibattery.com" target="_blank" rel="noopener" class="md-footer-social__link" title="Documentation Center">
+          📖 Technical Docs
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+{% endblock %}

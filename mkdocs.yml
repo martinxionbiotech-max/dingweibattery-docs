@@ -1,0 +1,59 @@
+site_name: Dingwei Battery Technical Documentation
+site_url: https://docs.dingweibattery.com
+site_description: Official technical documentation center for Dingwei Battery — battery model specifications, quality control framework, testing standards, and OEM/private-label guidance for automotive batteries.
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - content.code.copy
+  palette:
+    primary: indigo
+    accent: deep orange
+  font:
+    text: Inter
+    code: Fira Code
+
+nav:
+  - Home: index.md
+  - Battery Specifications:
+    - Overview: specs/index.md
+    - JIS Standard:
+      - 145G51 (N150): specs/jis-145g51.md
+      - 190H52 (N200): specs/jis-190h52.md
+    - DIN Standard:
+      - DIN 58827: specs/din-58827.md
+      - DIN 60038: specs/din-60038.md
+    - Standards Comparison: specs/standards-comparison.md
+  - Testing & Quality:
+    - Quality Control Framework: quality/index.md
+    - CCA Testing: quality/cca-testing.md
+    - Capacity & Reserve: quality/capacity-reserve.md
+    - Factory Audit: quality/factory-audit.md
+  - OEM & Private Label:
+    - OEM Programs: oem/index.md
+    - Private Label Guide: oem/private-label.md
+    - MOQ & Lead Time: oem/moq-lead-time.md
+    - RFQ Guide: oem/rfq-guide.md
+  - Standards & Regulatory:
+    - JIS vs DIN vs BCI: standards/jis-din-bci.md
+    - SAE & EN Standards: standards/sae-en.md
+    - Shipping & Warranty: standards/shipping-warranty.md
+  - Glossary: glossary/index.md
+
+extra:
+  social: []
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
