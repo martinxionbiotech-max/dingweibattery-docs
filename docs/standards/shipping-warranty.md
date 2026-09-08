@@ -41,3 +41,7 @@ Confirm with the manufacturer:
 4. Destination-specific compliance requirements
 
 See [RFQ Guide](../oem/rfq-guide.md) to include shipping and warranty requirements in your request.
+
+## Source & Purchase
+
+Ready to source? [Request an OEM or private-label quote](https://dingweibattery.com/contact/) on the main website to discuss your specification, target market and annual volume with our team.

@@ -44,3 +44,7 @@ This glossary defines the key terms used throughout the Dingwei Battery technica
 - **ISO 9001** — general quality management system standard.
 - **ISO 45001 / OHSAS 18001** — occupational health and safety standards.
 - **COA (Certificate of Analysis)** — a document certifying a product's tested specifications.
+
+## Main Website
+
+For the full battery model catalog, live specification data and OEM/private-label programs, visit [dingweibattery.com](https://dingweibattery.com).

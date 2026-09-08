@@ -44,3 +44,7 @@ For OEM and private-label buyers, a factory audit is the most reliable way to ve
 ## Chengguang Power Tech Co., Ltd.
 
 Dingwei Battery is manufactured by Chengguang Power Tech Co., Ltd. (founded 2002), with a 200,000 m² factory, 18 automated production lines, and exports to 70+ countries. Certified to IATF 16949, ISO 9001, ISO 45001, and OHSAS 18001.
+
+## Source & Purchase
+
+Ready to source? [Request an OEM or private-label quote](https://dingweibattery.com/contact/) on the main website to discuss your specification, target market and annual volume with our team.

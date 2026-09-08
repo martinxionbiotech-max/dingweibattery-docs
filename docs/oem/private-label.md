@@ -35,3 +35,7 @@ Private label lets you sell batteries under your own brand without investing in 
 Private label is a faster, lower-risk path to battery brand ownership than building your own factory. The key is choosing a manufacturer whose quality framework (certifications, testing, documentation) backs your brand's claims.
 
 See [MOQ & Lead Time](moq-lead-time.md) and [RFQ Guide](rfq-guide.md) to prepare your program.
+
+## Source & Purchase
+
+Ready to source? [Request an OEM or private-label quote](https://dingweibattery.com/contact/) on the main website to discuss your specification, target market and annual volume with our team.

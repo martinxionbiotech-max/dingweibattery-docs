@@ -32,3 +32,7 @@ OEM (Original Equipment Manufacturing) means Dingwei Battery manufactures batter
 - **Private Label** — you apply your brand to a manufacturer's product
 
 See [Private Label Guide](private-label.md) and [MOQ & Lead Time](moq-lead-time.md) for program specifics.
+
+## Source & Purchase
+
+Ready to source? [Request an OEM or private-label quote](https://dingweibattery.com/contact/) on the main website to discuss your specification, target market and annual volume with our team.

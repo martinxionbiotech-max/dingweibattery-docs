@@ -38,3 +38,7 @@ Although SAE and EN both test at −18°C, their group sizing and terminal conve
 3. CCA meets the vehicle's cranking requirement
 
 See [JIS vs DIN vs BCI](jis-din-bci.md) and the full [standards comparison](../specs/standards-comparison.md).
+
+## Source & Purchase
+
+For high-volume OEM and private-label sourcing with full analytical documentation, [browse the complete battery model catalog](https://dingweibattery.com/data/) on the main website to request specifications and bulk pricing.

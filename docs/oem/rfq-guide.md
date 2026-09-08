@@ -48,3 +48,7 @@ A complete RFQ lets the manufacturer quote accurately on the first pass, reducin
 ## Next Steps
 
 Prepare your RFQ using this checklist, then contact the manufacturer with your target volumes and destination. See [MOQ & Lead Time](moq-lead-time.md) and [Supplier Checklist](../quality/factory-audit.md) for related guidance.
+
+## Source & Purchase
+
+Ready to source? [Request an OEM or private-label quote](https://dingweibattery.com/contact/) on the main website to discuss your specification, target market and annual volume with our team.

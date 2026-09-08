@@ -34,3 +34,7 @@ Dingwei Battery's quality control framework is built on the manufacturing certif
 ## Documentation
 
 Each production batch is documented with test data confirming the battery's electrical and dimensional specifications. Contact the manufacturer for batch-specific documentation packages.
+
+## Source & Purchase
+
+Ready to source? [Request an OEM or private-label quote](https://dingweibattery.com/contact/) on the main website to discuss your specification, target market and annual volume with our team.

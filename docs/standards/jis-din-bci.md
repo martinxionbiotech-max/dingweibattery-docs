@@ -41,3 +41,7 @@ The correct standard is determined by your target market and the vehicles you se
 - Selling into North America → BCI/SAE
 
 Always confirm the group size, terminal layout, and CCA test basis match your market before specifying. See the full [standards comparison](../specs/standards-comparison.md) for details.
+
+## Source & Purchase
+
+For high-volume OEM and private-label sourcing with full analytical documentation, [browse the complete battery model catalog](https://dingweibattery.com/data/) on the main website to request specifications and bulk pricing.

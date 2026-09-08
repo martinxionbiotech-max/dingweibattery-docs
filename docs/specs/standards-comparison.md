@@ -41,3 +41,7 @@ Comparing a JIS CCA to an EN CCA is an apples-to-oranges comparison. The tempera
 4. Confirm the group size fits your vehicle
 
 See [CCA Testing](../quality/cca-testing.md) for the full methodology.
+
+## Source & Purchase
+
+For high-volume OEM and private-label sourcing with full analytical documentation, [browse the complete battery model catalog](https://dingweibattery.com/data/) on the main website to request specifications and bulk pricing.

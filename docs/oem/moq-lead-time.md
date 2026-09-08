@@ -35,3 +35,7 @@ Lead time is the total time from confirmed order to delivery. It typically inclu
 ## How to Confirm
 
 MOQ and lead time vary by model, specification complexity, and current production schedule. Contact the manufacturer with your target volumes, models, and destination to receive a firm quote. See [RFQ Guide](rfq-guide.md) to prepare a complete request.
+
+## Source & Purchase
+
+Ready to source? [Request an OEM or private-label quote](https://dingweibattery.com/contact/) on the main website to discuss your specification, target market and annual volume with our team.

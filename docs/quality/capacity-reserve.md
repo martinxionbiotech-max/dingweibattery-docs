@@ -34,3 +34,7 @@ Reserve capacity is the number of minutes a battery can deliver a defined discha
 Capacity and RC are measured to the relevant standard (JIS, DIN, BCI, SAE, EN). Confirm the test basis and rate (C20 vs C5) when comparing capacity values, as different rates yield different numbers.
 
 See [CCA Testing](cca-testing.md) for how these metrics differ and why both matter.
+
+## Source & Purchase
+
+For high-volume OEM and private-label sourcing with full analytical documentation, [browse the complete battery model catalog](https://dingweibattery.com/data/) on the main website to request specifications and bulk pricing.

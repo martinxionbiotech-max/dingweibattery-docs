@@ -39,3 +39,7 @@ Ah (amp-hours) measures stored energy over time — how long the battery can sup
 ## Verified Against Standard
 
 Dingwei Battery models across JIS, DIN, BCI, AS, and SA have CCA values confirmed to the relevant test standard. Confirm the final CCA and its test basis with the manufacturer before using it in a product specification.
+
+## Source & Purchase
+
+For high-volume OEM and private-label sourcing with full analytical documentation, [browse the complete battery model catalog](https://dingweibattery.com/data/) on the main website to request specifications and bulk pricing.
