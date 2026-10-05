@@ -8,7 +8,7 @@ Every page is also available as clean Markdown, copied from the documentation so
 
 - Full corpus (all pages): [llms-full.txt](https://docs.dingweibattery.com/llms-full.txt)
 - Mirror index: [md/index.md](https://docs.dingweibattery.com/md/index.md)
-- Pattern: `https://docs.dingweibattery.com/md/<path>.md` — e.g. /md/specs/jis-145g51/index.md mirrors /specs/jis-145g51/
+- Pattern: `https://docs.dingweibattery.com/md/<path>.md` — e.g. /md/specs/jis-145g51.md mirrors /specs/jis-145g51/
 
 ## Documentation
 
