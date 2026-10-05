@@ -1,4 +1,6 @@
 site_name: Dingwei Battery Technical Documentation
+hooks:
+  - hooks.py
 site_url: https://docs.dingweibattery.com
 site_description: Official technical documentation center for Dingwei Battery — battery model specifications, quality control framework, testing standards, and OEM/private-label guidance for automotive batteries.
 theme:
@@ -39,6 +41,8 @@ nav:
   - Standards & Regulatory:
     - JIS vs DIN vs BCI: standards/jis-din-bci.md
     - SAE & EN Standards: standards/sae-en.md
+    - GB vs JIS/DIN/EN: standards/gb-vs-jis-din-en.md
+    - Battery Chemistry Comparison: standards/battery-chemistry-comparison.md
     - Shipping & Warranty: standards/shipping-warranty.md
   - Glossary: glossary/index.md
 
